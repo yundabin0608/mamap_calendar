@@ -154,9 +154,9 @@ class _HeatMapCalendar extends State<HeatMapCalendar> {
 
         // Text which shows the current year and month
         Text(
-          DateUtil.MONTH_LABEL[_currentDate?.month ?? 0] +
+          (_currentDate?.year).toString() +
               ' ' +
-              (_currentDate?.year).toString(),
+              DateUtil.MONTH_LABEL[_currentDate?.month ?? 0],
           style: TextStyle(
             fontSize: widget.monthFontSize ?? 12,
           ),
