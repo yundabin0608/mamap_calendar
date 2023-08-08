@@ -35,13 +35,13 @@ class DateUtil {
 
   static const List<String> WEEK_LABEL = [
     '',
-    'Sun',
-    'Mon',
-    'Tue',
-    'Wed',
-    'Thu',
-    'Fri',
-    'Sat',
+    '일',
+    '월',
+    '화',
+    '수',
+    '목',
+    '금',
+    '토',
   ];
 
   /// Get start day of month.

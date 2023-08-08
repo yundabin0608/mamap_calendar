@@ -214,9 +214,9 @@ class _HeatMapCalendar extends State<HeatMapCalendar> {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           _header(),
-          const SizedBox(height: 10),
+          const SizedBox(height: 15),
           _weekLabel(),
-          const SizedBox(height: 10),
+          const SizedBox(height: 15),
           HeatMapCalendarPage(
             baseDate: _currentDate ?? DateTime.now(),
             colorMode: widget.colorMode,
